@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    gap: 50px;
+    .links {
+      width: 30%;
+      line-height: 2;
+      margin-left: auto;
+      a {
+        text-decoration: none;
+      }
+      p {
+        font-size: 0.8em;
+        color: $text;
+      }
+    }
+    .socials {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      .fa {
+        padding: 10px;
+        font-size: 25px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+  }
+  }

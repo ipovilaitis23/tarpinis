@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+    padding: 5px;
+    p {
+      margin-left: 150px;
+    }
+    .signin {
+      padding: 10px;
+      background: $blue;
+      color: white;
+      border-radius: 6px;
+      margin-right: 150px;
+      text-decoration: none;
+    }
+  }
